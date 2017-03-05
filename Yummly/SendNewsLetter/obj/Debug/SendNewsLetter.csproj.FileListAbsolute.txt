@@ -1,0 +1,4 @@
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\SendNewsLetter\bin\Debug\SendNewsLetter.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\SendNewsLetter\bin\Debug\SendNewsLetter.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\SendNewsLetter\obj\Debug\SendNewsLetter.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\SendNewsLetter\obj\Debug\SendNewsLetter.pdb

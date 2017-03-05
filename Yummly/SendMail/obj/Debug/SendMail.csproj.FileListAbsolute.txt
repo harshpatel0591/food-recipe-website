@@ -1,0 +1,4 @@
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\SendMail\bin\Debug\SendMail.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\SendMail\bin\Debug\SendMail.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\SendMail\obj\Debug\SendMail.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\SendMail\obj\Debug\SendMail.pdb
