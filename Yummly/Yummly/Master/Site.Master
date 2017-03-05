@@ -1,0 +1,137 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Yummly.Master.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Foodie.com</title>
+    <meta name="google-signin-client_id" content="167761437647-du0r3bkh0mt0fg4go2h2gt6o4p55i7mp.apps.googleusercontent.com" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <script src="/js/jquery-1.11.3.min.js"></script>
+    <script src="../js/FacebookLogin.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async="async" defer="defer"></script>
+    <script src="../js/GoogleLogin.js"></script>
+    <script src="../js/Common.js"></script>
+
+    <script type="text/javascript">
+
+        function NoImageAvailable(img) {
+            $(img).attr("src", "/Images/NoImageAvailable.jpg");
+        }
+
+
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div>
+                <header>
+                    <div class="left logo">
+                        <a href="/">
+                            <img src="Images/Logo/foodie_logo3.png" style="width: 180px; height: 72px;" />
+                        </a>
+                    </div>
+                    <% if (HttpContext.Current.Session["UserId"] != null && HttpContext.Current.Session["FirstName"] != null && HttpContext.Current.Session["LastName"] != null)
+                       { %>
+                    <div class="signUp">
+                        Welcome <%:Session["FirstName"] +" " + Session["LastName"] %>
+                        <asp:Button runat="server" OnClick="ClearSession" Text="Logout" OnClientClick="LogoutAll();" />
+                    </div>
+                    <%}
+                       else
+                       { %>
+
+                    <div class="signUp">
+                        <a href="CreateAccount.aspx">Create an Account</a>
+                        <span style="color: white">/ </span>
+                        <a href="SignIn.aspx">Sign In</a>
+                    </div>
+
+                    <%} %>
+
+                    <div class="left navMenu">
+                        <asp:Menu ID="Menu" runat="server" DataSourceID="NavDataSource" StaticDisplayLevels="2" Orientation="Horizontal"></asp:Menu>
+                        <asp:SiteMapDataSource ID="NavDataSource" runat="server" />
+                        <div class="fb-like" data-href="https://www.facebook.com/Foodie_IAD-1514321818860234/?fref=ts" data-width="20px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" style="margin: -70px 0px 0px 550px">
+                        </div>
+                    </div>
+                    <%--<div class="left" style="margin-top: 20px;">
+                        <div style="margin-top: 5px; padding-left: 90px">
+                            <div class="social fb"></div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>--%>
+                    <div class="clear"></div>
+                </header>
+            </div>
+
+            <asp:ContentPlaceHolder ID="CpBody" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <div>
+                <footer>
+                    <div style="width: 600px; margin: auto; padding: 10px;">
+                        <div class="left">
+                            <div class="footLabel">
+                                Company
+                            </div>
+                            <div class="footElems">
+                                <div><a href="../AboutUs.aspx">About</a></div>
+                                <div><a href="../Career.aspx">Careers</a></div>
+                                <div><a href="../Team.aspx">Team</a></div>
+                                <div><a href="../Privacy.aspx">Privacy</a></div>
+                            </div>
+                        </div>
+
+                        <div class="left" style="margin-left: 100px;">
+                            <div class="footLabel">Contact</div>
+                            <div class="footElems">
+                                <div>
+                                    <a href="../ContactUs.aspx">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left divSocial">
+                            <div class="footLabel">
+                                Connect with Us
+                            </div>
+                            <div style="margin-top: 10px; padding-left: 50px;">
+                                <div class="social fb"></div>
+                                <div class="clear"></div>
+                            </div>
+
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div style="background-color: #000; margin: 0px; color: #fff; padding: 10px; margin-top: 10px;">
+                        &copy foodie.com
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </form>
+
+    <script type="text/javascript">
+        var loginType = '<%= loginType%>';
+
+        function LogoutAll() {
+            if (loginType == "3") {
+                //$("[name = 'google-signin-client_id']").attr('content', '');
+                GoogleSignOut();
+                
+
+            }
+            else if (loginType == "2")
+                FbLogout();
+            //window.location.reload(true);
+        }
+
+    </script>
+
+</body>
+</html>
