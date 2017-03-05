@@ -1,0 +1,13 @@
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\ApiLayer\bin\Debug\ApiLayer.dll.config
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\ApiLayer\bin\Debug\ApiLayer.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\ApiLayer\bin\Debug\ApiLayer.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\ApiLayer\bin\Debug\SendMail.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\ApiLayer\bin\Debug\System.Net.Http.Extensions.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\ApiLayer\bin\Debug\System.Net.Http.Primitives.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\ApiLayer\bin\Debug\SendMail.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\ApiLayer\bin\Debug\System.Net.Http.Extensions.xml
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\ApiLayer\bin\Debug\System.Net.Http.Primitives.xml
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\ApiLayer\obj\Debug\ApiLayer.csproj.App.config
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\ApiLayer\obj\Debug\ApiLayer.csprojResolveAssemblyReference.cache
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\ApiLayer\obj\Debug\ApiLayer.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\ApiLayer\obj\Debug\ApiLayer.pdb

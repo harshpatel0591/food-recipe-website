@@ -1,0 +1,13 @@
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\BusinessLayer\bin\Debug\ApiLayer.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\BusinessLayer\bin\Debug\DataLayer.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\BusinessLayer\bin\Debug\Entities.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\BusinessLayer\bin\Debug\SendMail.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\BusinessLayer\bin\Debug\ApiLayer.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\BusinessLayer\bin\Debug\DataLayer.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\BusinessLayer\bin\Debug\Entities.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\BusinessLayer\bin\Debug\SendMail.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\BusinessLayer\obj\Debug\BusinessLayer.pdb

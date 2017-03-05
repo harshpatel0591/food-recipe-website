@@ -1,0 +1,11 @@
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Common\bin\Debug\Common.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Common\bin\Debug\Common.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Common\bin\Debug\DataLayer.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Common\bin\Debug\Entities.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Common\bin\Debug\SendMail.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Common\bin\Debug\DataLayer.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Common\bin\Debug\Entities.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Common\bin\Debug\SendMail.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Common\obj\Debug\Common.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Common\obj\Debug\Common.pdb

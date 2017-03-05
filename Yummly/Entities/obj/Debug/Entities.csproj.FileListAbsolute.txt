@@ -1,0 +1,7 @@
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Entities\bin\Debug\Entities.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Entities\bin\Debug\Entities.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Entities\bin\Debug\SendMail.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Entities\bin\Debug\SendMail.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Entities\obj\Debug\Entities.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\Entities\obj\Debug\Entities.pdb

@@ -1,0 +1,7 @@
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\DataLayer\bin\Debug\DataLayer.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\DataLayer\bin\Debug\DataLayer.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\DataLayer\bin\Debug\SendMail.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\DataLayer\bin\Debug\SendMail.pdb
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\DataLayer\obj\Debug\DataLayer.dll
+E:\UHCL Study\Fall 2015\IAD\Project\Yummly\DataLayer\obj\Debug\DataLayer.pdb
